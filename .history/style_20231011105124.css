@@ -1,0 +1,53 @@
+*{
+   box-sizing:border-box;
+   margin:0;
+   padding:0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container h1{
+    padding:10px;
+    text-align:center;
+}
+
+.header{
+    padding-bottom: 20px;
+}
+
+#add{
+    padding: 5px;
+    width:80%;
+    float:left;
+}
+.form label button{
+    padding:5px;
+    width:70px;
+    margin-left:10px;
+    cursor: pointer;
+    float:right;
+}
+
+.list{
+    padding-bottom: 20px;
+}
+
+.list ul{
+    list-style: none;
+}
+
+.list-div .list li .list-text{
+    padding: 5px;
+    width:60%
+} 
+.edit,.delete{
+    padding:5px;
+    width:70px;
+    margin-left:10px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,50 @@
+*{
+   box-sizing:border-box;
+   margin:0;
+   padding:0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container h1{
+    padding:10px;
+    text-align:center;
+}
+
+.header{
+    padding-bottom: 20px;
+}
+
+#add{
+    padding: 5px;
+    width:80%
+}
+.form label button{
+    padding:5px;
+    width:15%;
+    margin-left:10px;
+    cursor: pointer;
+}
+
+.list{
+    padding-bottom: 20px;
+}
+
+.list ul{
+    list-style: none;
+}
+
+.list #list li .list-text{
+    padding: 5px;
+    width:60%
+} 
+button{
+    padding:5px;
+    width:15%;
+    margin-left:10px;
+    cursor: pointer;
+}
